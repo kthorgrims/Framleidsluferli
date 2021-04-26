@@ -69,21 +69,53 @@
                 
                 <p> Mig langaði að búa til þess eitthvað gagnlegt en hafði ekki ákveðna hugmynd fyrirfram nákvæmlega hvað það væri. Ég byrjaði að leita á netinu af hlutum sem höfðu verið geislaskornir. Þar fann ég fartölvustand sem leit út fyrir að vera þokkalega einfaldur í framkvæmd. Ég ákvað því að búa til stand fyrir iPad svo hann gæti staðið uppréttur við hliðina á fartölvu svo hægt væri að nota hann sem aukaskjá.  </p>
                 
-                <p> Til þess að hanna hlutinn notaði ég Fusion 360 og til þess að búa til pdf skrá sem geislaskerinn gat lesið notaði ég Inkscape. Hluturinn var svo skorinn út á 4x300x600mm birkikrossvið.  </p>
+                <p> Til þess að hanna hlutinn notaði ég <a href="https://www.autodesk.com/products/fusion-360/overview?term=1-YEAR">Fusion 360</a> og til þess að búa til pdf skrá sem geislaskerinn gat lesið notaði ég <a href="https://inkscape.org"> Inkscape</a>. Hluturinn var svo skorinn út á 4x300x600mm birkikrossvið.  </p>
                 
                 <h3>Undirbúningur </h3>
                 
-                <p> Áður en ég gat byrjað að teikna þurfti ég að vita málin sem ég vildi hafa á hlutnum. Ég sótti forrit í iPadinn sem mælir halla og svo stillti ég iPadnum upp þá stöðu sem ég vildi hafa hann í. Þannig ákvarðaði ég hallann á standinum. Svo fann ég upplýsingar um stærð iPadsins svo ég vissi hversu stór standurinn ætti að vera. </p>
+                <p> Áður en ég gat byrjað að teikna þurfti ég að vita málin sem ég vildi hafa á hlutnum. Ég sótti forrit í iPadinn sem mælir halla og svo stillti ég iPadnum upp þá stöðu sem ég vildi hafa hann í. Þannig ákvarðaði ég að þægilegati hallinn á iPadnum væri 55° eins og sjá má á myndinni hér að neðan.</p>
                 
-                <h3> Hönnun</h3>
-                
-                <p> Fyrsta skrefið var að búa til stika svo auðveld var að skala hönnunina. Þar setti ég inn þykkt krossviðs, lengd milli undirstaða, lengd og hæð flatarins. Þannig er með auðveldum hætti er hægt að nota sömu teikningu fyrir mismunandi þykkt af krossvið og mismunandi stærð af stærð af iPad. </p>
-                
-                <img src="img/verkefni2/mynd_1.png" alt="" class="img-responsive" />
+                <img src="img/verkefni2/ipad_halli.jpg" alt="" class="img-responsive" />
                 
                 <br>
                 
-                <p> Ég byrjaði á því að teikna upp aðra undirstöðuna og afritaði hana svo. Þannig ef ég myndi gera breytingar á upprunarlegu undirstöðunni þá breytast báðar. Næst skref var að búa til plötuna sem iPadinn liggur ofan á. Stærðin á henni var ákvörðuð út frá stikunum sem gerðir voru út frá 12,9 tommu iPad Pro. Að lokum var stuðningi bætt við undirstöðurnar. Fyrir frekari útskýringu á hönnunni bendi ég á <a href="https://youtu.be/7riGolu7BpA">þetta</a> myndband. Þar sem svipaður hlutur er teiknaður frá grunni. </p>  
+                <p> Einnig þurfti ég upplýsingar um stærð iPadsins til þess að ákvarða stika og út frá því hversu stór standurinn ætti að vera. </p>
+                
+                <img src="img/verkefni2/ipad_dimensions.jpg" alt="" class="img-responsive" />
+                
+                <br>
+                
+                <h3> Hönnun</h3>
+                
+                <p> Fyrsta skrefið í hönnuninni var að búa til stika út frá stærðum iPadsins. Þar setti ég inn þykkt krossviðsnis, lengd milli undirstaða, lengd og hæð flatarins. Þannig er með auðveldum hætti er hægt að nota sömu teikningu fyrir mismunandi þykkt af krossvið og mismunandi spjaldtölvur aðeins með því að breyta gildunum á stikunum og teikningin breytist þá sjálfkrafa. </p>
+                
+                <img src="img/verkefni2/parameters.gif" alt="" class="img-responsive" />
+                
+                <br>
+                
+                <img src="img/verkefni2/mynd1.png" alt="" class="img-responsive" />
+                
+                <br>
+                
+                <p> Ég byrjaði á því að teikna upp grófar útlínur fyrir aðra undirstöðuna. Ég hafði stærðina á fletinum aðeins rúma svo það yrðir pláss til þess að rúna hornin. Á myndinni hér fyrir neðan má sjá fyrstu teikingu af undirstöðunni og hvernig stikinn fyrir 55° hallann er notaður.</p>
+                
+                <img src="img/verkefni2/undirstada1.png" alt="" class="img-responsive" />
+                
+                <br>
+                
+                <p>Næst var teikningin fyrir undirstöðuna þykkt með stikanum þykkt sem er skilgreind sem 4mm því það er þykkt krossviðsins sem notaður verður. Þetta er gert með skipuninni „extrude“. Öll horn voru svo rúnuð með skipuninni „fillet“.</p>
+                
+                <img src="img/verkefni2/fillet.png" alt="" class="img-responsive" />
+                
+                <br>
+                    
+                <p>Þar sem undirstöðurnar eru tvær og alveg eins þá var sú fyrst afrituð svo ef gerðar yrðu breytingar á upprunarlegu undirstöðunni þá breytast báðar. Næst skref var svo að búa til plötuna sem iPadinn liggur ofan á. Við búum til „New component“ og svo „New Sketch“ og veljum hallandi planið á undirstöðunum. Búum svo til kassa og veljum stærðina á honum eftir stikunum um stærð iPadsins. 
+                    
+                <img src="img/verkefni2/plata.gif" alt="" class="img-responsive" />
+                
+                <br>
+                    
+                Stærðin á henni var ákvörðuð út frá stikunum sem gerðir voru út frá 12,9 tommu iPad Pro. Að lokum var stuðningi bætt við undirstöðurnar. Fyrir frekari útskýringu á hönnunni bendi ég á <a href="https://youtu.be/7riGolu7BpA">þetta</a> myndband. Þar sem svipaður hlutur er teiknaður frá grunni. </p>  
                 
                 <img src="img/verkefni2/mynd_2.png" alt="" class="img-responsive" />
                 
